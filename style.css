@@ -1,0 +1,81 @@
+* { 
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+#topo {
+    display: flex;
+    background-color: #302f2f;
+    margin: 0;
+}
+
+#topo li:first-child {
+    margin-right: auto;
+    text-align: left;
+}
+
+#topo li {
+    display: block;
+    padding: 15px;
+}
+article {
+    background-color: teal;
+    border: 5px solid gray;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.473);
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+h1 {
+    padding: 20px;
+   
+}
+
+#fotoperfil{
+    background-color: tomato;
+    border-radius: 50%;
+    padding: 5px;
+    width: 150px;
+    box-shadow: 0 0 10px 10px rgba(36, 209, 186, 0.5);
+}
+
+#botao2 {
+    color: white;
+}
+
+.caixaconteudo {
+    background-color: white;
+    box-shadow: 15px 15px 15px rgba(0,0,0,0.473);
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+#resumo {
+    text-align: left;
+    background-color:black ;
+    padding: 10%;
+    border: 5px solid rgb(240, 97, 15);
+}
+
+.caixaconteudo li {
+    color: black;
+    display: flex;
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+    color: white
+}
+    
+    
