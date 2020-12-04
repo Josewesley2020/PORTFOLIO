@@ -3,6 +3,8 @@
     text-align: center;
     color: white;
     margin: 0;
+    padding:0;
+    box-sizing: border-box;
 }
 
 html {
@@ -13,6 +15,7 @@ html {
     display: flex;
     background-color: #302f2f;
     margin: 0;
+    align-items: center;
 }
 
 #topo li:first-child {
@@ -61,10 +64,16 @@ h1 {
 }
 
 #resumo {
-    text-align: left;
-    background-color:black ;
-    padding: 10%;
+    background-color: black;
+    padding: 7%;
     border: 5px solid rgb(240, 97, 15);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#resumo p{
+    margin:0;
 }
 
 .caixaconteudo li {
@@ -77,5 +86,37 @@ footer {
     padding: 10px;
     color: white
 }
-    
-    
+
+/* Media queries */
+
+@media(max-width: 900px){
+    *{
+        font-size: 0.88rem;
+    }
+    article{
+        width:80%;
+    }
+
+    article h1{
+        font-size: 2.5rem;
+    }
+
+    .caixaconteudo{
+        width: 80%;
+    }
+
+}
+
+@media(max-width: 505px){
+    article h1{
+        font-size: 2rem;
+    }
+
+}
+
+@media(max-width: 422px){
+    article h1{
+        font-size: 1.55rem;
+    }
+
+}
