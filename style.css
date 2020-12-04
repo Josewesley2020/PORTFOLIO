@@ -91,7 +91,7 @@ footer {
 
 @media(max-width: 900px){
     *{
-        font-size: 0.88rem;
+        font-size:0.88rem;
     }
     article{
         width:80%;
